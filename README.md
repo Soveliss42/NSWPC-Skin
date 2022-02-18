@@ -15,3 +15,5 @@ and then pasting the contents of the CSS file (Switch-Format.css) into the custo
 Voila! <br/>
 Here's a screenshot of what it looks like 18 feb 2022: <br/>
 <img width="296" alt="Screen Shot 2022-02-18 at 9 47 08 AM" src="https://user-images.githubusercontent.com/99949632/154735360-39105df9-4cea-4308-9a84-8482951de909.png">
+
+Note that the joystick movement doesn't scale, nothing I know how to do there - the 540p will work better for most purposes.
