@@ -16,4 +16,6 @@ Voila! <br/>
 Here's a screenshot of what it looks like 18 feb 2022: <br/>
 <img width="296" alt="Screen Shot 2022-02-18 at 9 47 08 AM" src="https://user-images.githubusercontent.com/99949632/154735360-39105df9-4cea-4308-9a84-8482951de909.png">
 
-Note that the joystick movement doesn't scale, nothing I know how to do there - the 540p will work better for most purposes.
+Note that the joystick movement doesn't scale with the resolution of the component parts, nothing I know how to do there - the 540p will work better for most purposes.
+The Illustrator file included contains everything that's been exported to the 540p and 4k branches as of some point (might not stay updated), should you wish to customize this and make your own repo of your own skins.
+If you can't open the illustrator file, converting it to a jpg/png will match the base of the skin, allowing you to modify at least the main faceplate+grips of the controller.
