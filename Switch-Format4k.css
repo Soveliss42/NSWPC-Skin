@@ -1,0 +1,257 @@
+.controller.xbox {
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/base-nocolor.png); 
+    height: 4222px;
+    width: 5040px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox.white {
+    background: url(xbox-assets/base-white.svgz);
+}
+
+.xbox.disconnected {
+      background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/base-disconnect.png);
+}
+
+.xbox.disconnected div {
+    display: none;
+}
+
+.xbox .triggers {
+    width: 3656px;
+    height: 768px;
+    position: absolute;
+    left: 696px;
+    top: 44px;
+}
+
+.xbox .trigger {
+     width:992px;
+    height:684px;
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/trigger.png);
+    opacity: 0.4;
+}
+
+.xbox .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.xbox .trigger.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.xbox .bumper {
+   width: 1098px;
+    height: 318px;
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/bumper.png);
+    opacity: 0.4;
+}
+
+.xbox .bumpers {
+    position: absolute;
+    width: 3764px;
+    height: 488px;
+    left: 636px;
+    top: 744px;
+}
+
+.xbox .bumper.pressed {
+    opacity: 1;
+}
+
+.xbox .bumper.left {
+    float: left;
+}
+
+.xbox .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.xbox .quadrant{
+    position: absolute;
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/player.png);
+    height: 129px;
+    width: 463px;
+    top: 3120px;
+    left: 2280px;
+}
+.xbox .p0{
+    background-position: 0 -48px;
+}
+.xbox .p1{
+    background-position: 0 -208px;
+}
+.xbox .p2{
+    background-position: 0 -384px;
+}
+.xbox .p3{
+    background-position: 0 -522px;
+}
+
+.xbox .arrows { /*the + and - buttons */
+    position: absolute;
+    width: 1472px;
+    height: 264px;
+    top: 1296px;
+    left: 1776px;
+}
+
+.xbox .back, .xbox .start {
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/menus.png);
+    width: 230px;
+    height: 230px;
+    opacity: 1;
+}
+
+.xbox .back.pressed, .xbox .start.pressed{
+    background-position-y: -230px;
+    margin-top: 16px;
+}
+
+.xbox .back {
+    float: left;
+}
+
+.xbox .start {
+    background-position: 230px 0px;
+    float: right;
+}
+
+.xbox .abxy {
+    position: absolute;
+    width: 1552px;
+    height: 480px;
+    top: 1608px;
+    left: 3264px;
+}
+
+.xbox .button {
+    position: absolute;
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/face-buttons.png);
+    width:388px;
+    height:388px;
+}
+
+.xbox .button.pressed {
+    background-position-y: -388px;
+    margin-top: 2px;
+}
+
+.xbox .a {
+    background-position: 0px 0;
+    top: 336px;
+    left: 396px;
+}
+
+.xbox .b {
+    background-position: 1164px 0;
+    top: 0px;
+    left: 792px;
+}
+
+.xbox .x {
+    background-position: 780px 0;
+    top: 0px;
+    left: 0px;
+}
+
+.xbox .y {
+    background-position: 388px 0;
+    left: 396px;
+    top: -336px;
+}
+
+.xbox .sticks {
+    position: absolute;
+    width: 3200px;
+    height: 1200px;
+    top: 2000px;
+    left: 800px;
+}
+
+.xbox .stick {
+    position: absolute;
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/thumbs.png);
+	background-position: 0px 0;
+    height:520px;
+    width: 520px;
+}
+
+.xbox .stick.pressed {
+    background-position: -520px 0;
+}
+
+.xbox .stick.left {
+    top: -472px;
+    left: 54px;
+}
+
+.xbox .stick.right {
+    top: 328px;
+    left: 2136px;
+}
+
+.xbox .dpad {
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    top: 2240px;
+    left: 1416px;
+}
+
+.xbox .face {
+     background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-Skin/4k/dpad.png);
+    position: absolute;
+    opacity: 0.5;
+}
+
+.xbox .face.pressed{
+    margin-top: 0px;
+    background-position-y: 0px;
+    opacity: 1;
+}
+
+.xbox .face.up {
+    background-position: 0 200px;
+    left: 256px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.xbox .face.down {
+    background-position: 600px 200px;
+    left: 256px;
+    top: 512px;
+    width: 200px;
+    height: 200px;
+}
+
+.xbox .face.left {
+    background-position: 200px 200px;
+    width: 200px;
+    height: 200px;
+    top: 248px;
+    left: 0;
+}
+
+.xbox .face.right {
+    background-position: 400px 200px;
+    width: 200px;
+    height: 200px;
+    top: 248px;
+    left: 512px;
+}
+
+.xbox.half {
+    margin-top: -2520px;
+}
+
+.xbox {
+    background: no-repeat center;
+}
