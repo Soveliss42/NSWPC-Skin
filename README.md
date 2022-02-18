@@ -1,5 +1,5 @@
 # NSWPC-Skin
-the odds of me updating this if anything on gamepad viewer changes enough to break it are very low
+the odds of me updating this if anything on gamepad viewer changes enough to break it are very low <br/>
 It's a repo for a thing!
 
 This is a skin created for Gamepad Viewer that, afaik, only works if used in the custom css in OBS studio. <br/>
