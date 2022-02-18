@@ -11,7 +11,7 @@
     width: 784px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/base-disconnect.png);
+    background: url(http://i.imgur.com/lfuoKEx.png);
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
