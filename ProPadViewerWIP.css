@@ -8,7 +8,7 @@
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(base-nocolor.png); 
     height: 5040px;
-    width: 4042px;
+    width: 4222px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(base-disconnect.png);
