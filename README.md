@@ -8,7 +8,7 @@ That's because Gamepad Viewer assumes it can pull the repo's files from rawgit d
 and so it dead-ends there on the actual website, unless you're using an old enough skin <br/>
 That being said, this here is a Nintendo Switch Pro Controller skin <br/>
 All images were made/edited by me, Soveliss. <br/>
-The code is based off that of the example custom css provided by the creator of gamepad viewer, and I also referenced the CSS behind
+The CSS is based off that of the example custom CSS provided by the creator of gamepad viewer, and I also referenced the CSS behind
  skins by Million Lights and HawkyYT to help me understand what was going on (thought it ended up being trial and error mostly) <br/>
 
 This works by creating a browser source in OBS, linking it to "https://gamepadviewer.com/?p=1&s=1" <br/>
