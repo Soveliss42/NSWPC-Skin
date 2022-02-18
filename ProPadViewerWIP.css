@@ -6,12 +6,12 @@
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/base-nocolor.png); 
+    background: url(raw.githubusercontent.com/Soveliss42/nswpc-skin/main/base-nocolor.png); 
     height: 528px;
     width: 630px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/base-disconnect.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/nswpc-skin/main/base-disconnect.png);
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -26,7 +26,7 @@
 .custom .trigger{/* These are the actual triggers themselves */
     width:124px;
     height:86px;
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/trigger.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/nswpc-skin/main/trigger.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -45,7 +45,7 @@ placement */
 .custom .bumper{
     width: 138px;
     height: 40px;
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/bumper.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/nswpc-skin/main/bumper.png);
     opacity: 0;
 }
 .custom .bumpers{
@@ -108,7 +108,7 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/menus.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/nswpc-skin/main/menus.png);
     width: 29px;
     height: 29px;
 }
@@ -138,7 +138,7 @@ start and select buttons. */
     position: absolute;
     width:48px;
     height:48px;
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/face-buttons.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/nswpc-skin/main/face-buttons.png);
 }
 .custom .button.pressed{
     background-position-y: -64px;
@@ -174,7 +174,7 @@ the CSS inline. */
 }
 .custom .stick{
     position: absolute;
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/thumbs.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/nswpc-skin/main/thumbs.png);
     height:65px;
     width: 65px;
 }
@@ -201,7 +201,7 @@ the CSS inline. */
     left: 74px;
 }
 .custom .face{
-    background: url(https://raw.githubusercontent.com/Soveliss42/NSWPC-Skin/main/dpad.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/nswpc-skin/main/dpad.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
