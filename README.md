@@ -11,7 +11,7 @@ The code is based off that of the example custom css provided by the creator of 
  skins by Million Lights and HawkyYT to help me understand what was going on (thought it ended up being trial and error mostly) <br/>
 
 This works by creating a browser source in OBS, linking it to "https://gamepadviewer.com/?p=1&s=1" <br/>
-and then pasting the contents of the CSS file into the custom CSS box underneath that <br/>
-Voila <br/>
+and then pasting the contents of the CSS file (Switch-Format.css) into the custom CSS box underneath that <br/>
+Voila! <br/>
 Here's a screenshot of what it looks like 18 feb 2022: <br/>
-<img width="304" alt="Screen Shot 2022-02-18 at 9 12 19 AM" src="https://user-images.githubusercontent.com/99949632/154730251-346ca683-383c-402e-a1d8-a8a74eeb219a.png">
+<img width="296" alt="Screen Shot 2022-02-18 at 9 47 08 AM" src="https://user-images.githubusercontent.com/99949632/154735360-39105df9-4cea-4308-9a84-8482951de909.png">
