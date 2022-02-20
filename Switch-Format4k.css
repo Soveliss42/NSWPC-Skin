@@ -1,5 +1,5 @@
 .controller.xbox {
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4base-nocolor.png); 
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4base-nocolor.png); 
     height: 4222px;
     width: 5040px;
     /*    margin-left: -375px;
@@ -11,7 +11,7 @@
 }
 
 .xbox.disconnected {
-      background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4base-disconnect.png);
+      background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4base-disconnect.png);
 }
 
 .xbox.disconnected div {
@@ -29,7 +29,7 @@
 .xbox .trigger {
      width:992px;
     height:684px;
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4trigger.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4trigger.png);
     opacity: 0.4;
 }
 
@@ -46,7 +46,7 @@
 .xbox .bumper {
    width: 1098px;
     height: 318px;
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4bumper.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4bumper.png);
     opacity: 0;
 }
 
@@ -74,7 +74,7 @@
 
 .xbox .quadrant{
     position: absolute;
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4player.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4player.png);
     height: 129px;
     width: 463px;
     top: 3120px;
@@ -107,7 +107,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4menus.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4menus.png);
     width: 230px;
     height: 230px;
     opacity: 1;
@@ -137,7 +137,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4face-buttons.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4face-buttons.png);
     width:388px;
     height:388px;
 }
@@ -181,7 +181,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4thumbs.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4thumbs.png);
 	background-position: 0px 0;
     height:520px;
     width: 520px;
@@ -210,7 +210,7 @@
 }
 
 .xbox .face {
-     background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/4dpad.png);
+     background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/4dpad.png);
     position: absolute;
     opacity: 0.5;
 }
