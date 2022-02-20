@@ -1,5 +1,5 @@
 .controller.xbox {
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/5base-nocolor.png); 
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/6test.png); 
     height: 528px;
     width: 630px;
     /*    margin-left: -375px;
@@ -181,17 +181,22 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/5thumbs.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/6thumbs.png);
 	background-position: 0px 0;
     height:65px;
     width: 65px;
 }
 
-.xbox .stick.pressed {
-    background-position: -65px 0;
+.xbox .stick.pressed.left {
+    background-position: -131px 0;
+}
+
+.xbox .stick.pressed.right {
+    background-position: -197px 0;
 }
 
 .xbox .stick.left {
+	background-position: -65px 0;
     top: -59px;
     left: 7px;
 }
