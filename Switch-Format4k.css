@@ -80,17 +80,22 @@
     top: 3120px;
     left: 2280px;
 }
+
 .xbox .p0{
+	 -webkit-transform: rotate(0deg);
     background-position: 0 -48px;
 }
 .xbox .p1{
-    background-position: 0 -208px;
+	 -webkit-transform: rotate(0deg);
+    background-position: 0px -160px;
 }
 .xbox .p2{
-    background-position: 0 -384px;
+	 -webkit-transform: rotate(0deg);
+    background-position: 0 -320px;
 }
 .xbox .p3{
-    background-position: 0 -522px;
+	 -webkit-transform: rotate(0deg);
+    background-position: 0 -480px;
 }
 
 .xbox .arrows { /*the + and - buttons */
