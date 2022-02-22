@@ -1,5 +1,5 @@
 .controller.xbox {
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5base-nocolor.png); 
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5base.png); 
     height: 528px;
     width: 630px;
     /*    margin-left: -375px;
@@ -11,26 +11,26 @@
 }
 
 .xbox.disconnected {
-      background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5base-disconnect.png);
+      background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5disconnect.png);
 }
 
 .xbox.disconnected div {
     display: none;
 }
 
-.xbox .triggers {
-    width: 457px;
-    height: 96px;
-    position: absolute;
-    left: 87px;
-    top: 4px;
+.xbox .trigger {
+    width:143px;
+    height:70px;
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5trigger.png);
+    opacity: 1;
 }
 
-.xbox .trigger {
-     width:124px;
-    height:86px;
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5trigger.png);
-    opacity: 0.4;
+.xbox .triggers {
+    width: 475px;
+    height: 99px;
+    position: absolute;
+    left: 77px;
+    top: 8px;
 }
 
 .xbox .trigger.left {
@@ -44,21 +44,23 @@
 }
 
 .xbox .bumper {
-   width: 138px;
-    height: 40px;
+    width: 155px;
+    height: 52px;
     background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5bumper.png);
-    opacity: 0;
+    opacity: 1;
 }
 
 .xbox .bumpers {
     position: absolute;
-    width: 470px;
+    width: 490px;
     height: 61px;
-    left: 79px;
-    top: 94px;
+    left: 70px;
+    top: 74px;
 }
 
 .xbox .bumper.pressed {
+	background-position: 0 -52px;
+    margin-top: 5px;
     opacity: 1;
 }
 
@@ -77,7 +79,7 @@
     background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5player.png);
     height: 16px;
     width: 58px;
-    top: 390px;
+    top: 380px;
     left: 285px;
 }
 
@@ -102,7 +104,7 @@
     position: absolute;
     width: 184px;
     height: 33px;
-    top: 162px;
+    top: 150px;
     left: 222px;
 }
 
@@ -115,7 +117,7 @@
 
 .xbox .back.pressed, .xbox .start.pressed{
     background-position-y: -29px;
-    margin-top: 2px;
+    margin-top: 3px;
 }
 
 .xbox .back {
@@ -131,20 +133,20 @@
     position: absolute;
     width: 75px;
     height: 60px;
-    top: 201px;
+    top: 185px;
     left: 408px;
 }
 
 .xbox .button {
     position: absolute;
-    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5face-buttons.png);
+    background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5face.png);
     width:48px;
     height:48px;
 }
 
 .xbox .button.pressed {
     background-position-y: -48px;
-    margin-top: 2px;
+    margin-top: 6px;
 }
 
 .xbox .a {
@@ -156,7 +158,7 @@
 .xbox .b {
     background-position: -49px 0;
     top: 0px;
-    left: 98px;
+    left: 99px;
 }
 
 .xbox .x {
@@ -175,7 +177,7 @@
     position: absolute;
     width: 400px;
     height: 150px;
-    top: 250px;
+    top: 240px;
     left: 100px;
 }
 
@@ -183,55 +185,59 @@
     position: absolute;
     background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5thumbs.png);
 	background-position: 0px 0;
-    height:65px;
-    width: 65px;
+    height:73px;
+    width: 73px;
 }
 
-.xbox .stick.pressed {
-    background-position: -65px 0;
+.xbox .stick.pressed.left {
+    background-position: -143px 0;
+}
+
+.xbox .stick.pressed.right {
+    background-position: -215px 0;
 }
 
 .xbox .stick.left {
-    top: -59px;
-    left: 7px;
+	background-position: -72px 0;
+    top: -62px;
+    left: 5px;
 }
 
 .xbox .stick.right {
-    top: 41px;
-    left: 267px;
+    top: 37px;
+    left: 263px;
 }
 
 .xbox .dpad {
     position: absolute;
     width: 80px;
     height: 80px;
-    top: 280px;
-    left: 177px;
+    top: 265px;
+    left: 178px;
 }
 
 .xbox .face {
      background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5dpad.png);
     position: absolute;
-    opacity: 0.5;
 }
 
 .xbox .face.pressed{
-    margin-top: 0px;
+    margin-top: 3px;
     background-position-y: 0px;
     opacity: 1;
 }
 
 .xbox .face.up {
-    background-position: 0 25px;
-    left: 32px;
+    background-position: 1px 25px;
+    left: 30px;
     top: 0px;
     width: 25px;
     height: 25px;
 }
 
 .xbox .face.down {
-    background-position: 75px 25px;
-    left: 32px;
+    background-position: 74px 25px;
+    left: 30px;
     top: 64px;
     width: 25px;
     height: 25px;
@@ -239,18 +245,18 @@
 
 .xbox .face.left {
     background-position: 25px 25px;
-    width: 25px;
-    height: 25px;
     top: 31px;
     left: 0;
+    width: 25px;
+    height: 25px;
 }
 
 .xbox .face.right {
-    background-position: 50px 25px;
+    background-position: 49px 25px;
+    top: 31px;
+    left: 62px;
     width: 25px;
     height: 25px;
-    top: 31px;
-    left: 64px;
 }
 
 .xbox.half {
