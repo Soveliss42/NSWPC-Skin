@@ -168,8 +168,8 @@
 .xbox .button {
     position: absolute;
     background: url(https://raw.githubusercontent.com/Soveliss42/gamepadviewer-switch-skin/main/assets/basic/5face.png);
-    width:48px;
-    height:48px;
+    width:49px;
+    height:49px;
 }
 
 .xbox .button.pressed {
@@ -178,7 +178,7 @@
 }
 
 .xbox .a {
-    background-position: 0 0;
+    background-position: -1px 0;
     top: 42px;
     left: 49px;
 }
@@ -186,7 +186,7 @@
 .xbox .b {
     background-position: -49px 0;
     top: 0px;
-    left: 99px;
+    left: 98px;
 }
 
 .xbox .x {
