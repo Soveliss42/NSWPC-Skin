@@ -2,8 +2,7 @@
 the odds of me updating this if anything on gamepad viewer changes enough to break it are very low <br/>
 It's a repo for a thing!
 
-This is a skin created for Gamepad Viewer that, afaik, only works if used inside of OBS studio*. <br/>
-That being said, this here is a Nintendo Switch Pro Controller skin for the gamepad viewer website.<br/>
+This is a Nintendo Switch Pro Controller skin created for Gamepad Viewer that, afaik, only works if used inside of OBS studio*. <br/>
 All images were made by me, Soveliss. <br/>
 The CSS is based off that of the example custom CSS provided by the creator of gamepad viewer, and I also referenced the CSS behind
  skins by Million Lights and HawkyYT to help me understand what was going on (though it ended up being trial and error mostly) <br/>
