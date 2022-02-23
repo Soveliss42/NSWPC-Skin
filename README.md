@@ -11,7 +11,7 @@ This works by creating a browser source in OBS, linking it to "https://gamepadvi
 and then pasting the contents of the CSS file (Switch-Format540p.css) into the custom CSS box underneath that <br/>
 Voila! <br/>
 Here's a screenshot of what it looks like 18 feb 2022: (and again 22 feb 2022):<br/>
-<img width="296" alt="Screen Shot 2022-02-18 at 9 47 08 AM" src="https://user-images.githubusercontent.com/99949632/154735360-39105df9-4cea-4308-9a84-8482951de909.png"> <img width="327" alt="Screen Shot 2022-02-22 at 1 08 45 PM" src="https://user-images.githubusercontent.com/99949632/155219879-08259c8e-5401-4067-8740-232bb8768949.png"> <br/>
+<img width="296" alt="Screen Shot 2022-02-18 at 9 47 08 AM" src="https://user-images.githubusercontent.com/99949632/154735360-39105df9-4cea-4308-9a84-8482951de909.png"> <img width="721" alt="Screen Shot 2022-02-22 at 4 43 02 PM" src="https://user-images.githubusercontent.com/99949632/155244134-a2c90936-07e0-4921-94f5-957d9663ed07.png"> <br/>
 Note the files used are 630x528 pixels, so you could make that the size of your browser window in OBS (yes it's slightly smaller than the normal skins... I realized this only after making everything)
 
 The Illustrator file included contains everything that's been exported to the basic 540p assets as of some point (might not stay updated), should you wish to customize this and make your own repo with your own skins.
