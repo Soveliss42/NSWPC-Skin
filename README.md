@@ -20,5 +20,5 @@ Exporting assets after moving anything, modifying sizes, modifying export sizes,
 
 
 *It'll probably also work if you know another way to make gamepad viewer actually read the css instead of trying to read it from rawgit... <br/>
-That's because Gamepad Viewer assumes it can pull the repo's files from rawgit despite it being nearly 4 years out of service,
-and so it dead-ends there when attempted on the actual website, unless you're using an old enough skin or self-hosting the css somewhere besides github (github.io might work but I'm too lazy to try) <br/>
+That's because Gamepad Viewer assumes it can pull the repo's files from rawgit despite it being nearly 4 years out of service.
+So it dead-ends there when attempted on the actual website, unless you're using an old enough skin (so it can be pulled from rawgit) or self-hosting the css somewhere besides github (so it doesn't try to pull from rawgit) (github.io might work but I'm too lazy to try) <br/>
