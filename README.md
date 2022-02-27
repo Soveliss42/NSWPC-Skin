@@ -27,6 +27,6 @@ As for how to actually pull inputs from the switch... from what I've found there
 Why do only playstation controllers stack the connections like this? No clue. Other controllers will only output to one device or the other. Conveniently, the dualshock 4 and dualsense both also have gyros, making them functionally identical to the switch pro controller... plus a frame or two of motion input lag from having to be registered as a wired controller. Why Nintendo hasn't solved motion input being slower when wired after 5 years I really couldn't say, though.<br/>
 <br/>
 <br/>
-\*\*It'll probably also work if you know another way to make gamepad viewer actually read the css instead of trying to read it from rawgit... <br/>
+\*\*It'll probably also work on google/etc if you know another way to make gamepad viewer actually read the css instead of trying to read it from rawgit... <br/>
 That's because Gamepad Viewer assumes it can pull the repo's files from rawgit despite it being nearly 4 years out of service.
 So it dead-ends there when attempted on the actual website, unless you're using an old enough skin (so it can be pulled from rawgit) or self-hosting the css somewhere besides github (so it doesn't try to pull from rawgit) (github.io might work but I'm too lazy to try) <br/>
