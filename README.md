@@ -2,7 +2,7 @@
 the odds of me updating this if anything on gamepad viewer changes enough to break it are very low <br/>
 It's a repo for a thing!
 
-This is a Nintendo Switch Pro Controller skin created for Gamepad Viewer that, afaik, only works if used inside of OBS studio*. <br/>
+This is a Nintendo Switch Pro Controller skin created for Gamepad Viewer that, afaik, only works if used inside of OBS studio**. <br/>
 All images were made by me, Soveliss. <br/>
 The CSS is based off that of the example custom CSS provided by the creator of gamepad viewer, and I also referenced the CSS behind skins by Million Lights and HawkyYT to help me understand what was going on (though it ended up being trial and error mostly) <br/>
 
@@ -24,9 +24,9 @@ As for how to actually pull inputs from the switch... from what I've found there
 2: any man-in-the-middle for a wired controller (even a wired pro controller) - this one seems feasible, until you realize that usb protocols are fairly hard to tap, and most solutions are basically homebrew on $80+ microcontrollers inbetween the controller and the console, making them both potentially more awkward and more expensive than the next option: <br/>
 3: use a dualshock 4 lmao - it turns out playstation controllers (and afaik, ONLY playstation controllers) can connect to bluetooth and usb simultaneously and separately, allowing it to, for example, connect to a $20 bluetooth usb stick plugged into the switch's dock, and also be plugged in to your computer via usb, giving inputs to both at the same time
 
-Why do only playstation controllers stack the connections like this? No clue. Other controllers will only output to one device or the other. Conveniently, the dualshock 4 and dualsense both also have gyros, making them functionally identical to the switch pro controller... plus a frame or two of motion input lag from having to be registered as a wired controller. Why Nintendo hasn't solved motion input being slower when wired after 5 years I really couldn't say, though.
-
-
-*It'll probably also work if you know another way to make gamepad viewer actually read the css instead of trying to read it from rawgit... <br/>
+Why do only playstation controllers stack the connections like this? No clue. Other controllers will only output to one device or the other. Conveniently, the dualshock 4 and dualsense both also have gyros, making them functionally identical to the switch pro controller... plus a frame or two of motion input lag from having to be registered as a wired controller. Why Nintendo hasn't solved motion input being slower when wired after 5 years I really couldn't say, though.<br/>
+<br/>
+<br/>
+\*\*It'll probably also work if you know another way to make gamepad viewer actually read the css instead of trying to read it from rawgit... <br/>
 That's because Gamepad Viewer assumes it can pull the repo's files from rawgit despite it being nearly 4 years out of service.
 So it dead-ends there when attempted on the actual website, unless you're using an old enough skin (so it can be pulled from rawgit) or self-hosting the css somewhere besides github (so it doesn't try to pull from rawgit) (github.io might work but I'm too lazy to try) <br/>
