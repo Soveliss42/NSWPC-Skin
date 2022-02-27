@@ -15,9 +15,9 @@ Note I set my browser window size to 630x528 pixels b/c that's the size of the i
 
 The Illustrator file included contains everything that's been exported to the basic assets as of some point (might not stay updated), should you wish to customize this and make your own repo with your own skins.
 Each group in the Illustrator file can be exported as a .png at 1x resolution and renamed to the name of the group, then in the CSS you will need to change only the filepath to reach wherever you're hosting your files (the links should be obvious, if you make your own github repo then change them to https://raw.githubusercontent.com/username/repository/filepath/6thumbs.png or etc) <br/>
-Exporting assets after moving anything, modifying sizes, modifying export sizes, or other changes besides color/inside clip groups/etc may require changes to the CSS to make it look right, no guarantees.
-
-
+Exporting assets after moving anything, modifying sizes, modifying export sizes, or other changes besides color/inside clip groups/etc may require changes to the CSS to make it look right, no guarantees.<br/>
+<br/>
+<br/>
 
 As for how to actually pull inputs from the switch... from what I've found there are basically 3 options for capturing inputs on switch: <br/>
 1: open joystick + a system module installed on a hacked switch - this one you evidently can't do <br/>
