@@ -11,7 +11,7 @@ and then pasting the contents of the CSS file (Switch-Format.css) into the custo
 Voila! <br/>
 Here's a screenshot of what it looks like 22 feb 2022: <br/>
 <img width="721" alt="Screen Shot 2022-02-22 at 4 43 02 PM" src="https://user-images.githubusercontent.com/99949632/155244134-a2c90936-07e0-4921-94f5-957d9663ed07.png"> <br/>
-Note I set my browser window size to 630x528 pixels b/c that's the size of the images used, and I also usually limit the frame rate to 30 or 60 fps - there's no reason to record inputs more often than the game I'm playing is doing so.
+Note I set my browser window size to 630x528 pixels b/c that's the size of the images used, and I also usually limit the frame rate to 30 or 60 fps - there's no reason to record inputs more often than the game I'm playing is doing so, and it can also help fix it if the browser source starts lagging.
 
 The Illustrator file included contains everything that's been exported to the basic assets as of some point (might not stay updated), should you wish to customize this and make your own repo with your own skins.
 Each group in the Illustrator file can be exported as a .png at 1x resolution and renamed to the name of the group, then in the CSS you will need to change only the filepath to reach wherever you're hosting your files (the links should be obvious, if you make your own github repo then change them to https://raw.githubusercontent.com/username/repository/filepath/6thumbs.png or etc) <br/>
