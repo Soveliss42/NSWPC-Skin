@@ -20,7 +20,7 @@ Exporting assets after moving anything, modifying sizes, modifying export sizes,
 <br/>
 
 As for how to actually pull inputs from the switch... from what I've found there are basically 3 options for capturing inputs on switch: <br/>
-1: open joystick + a system module installed on a hacked switch - this one you evidently can't do <br/>
+1: open joystick + a system module installed on a hacked switch - requires a hackable switch, some confidence, and being okay with running CFW online <br/>
 2: any man-in-the-middle for a wired controller (even a wired pro controller) - this one seems feasible, until you realize that usb protocols are fairly hard to tap, and most solutions are basically homebrew on $80+ microcontrollers inbetween the controller and the console, making them both potentially more awkward and more expensive than the next option: <br/>
 3: use a dualshock 4 lmao - it turns out playstation controllers (and afaik, ONLY playstation controllers) can connect to bluetooth and usb simultaneously and separately, allowing it to, for example, connect to a $20 bluetooth usb stick plugged into the switch's dock, and also be plugged in to your computer via usb, giving inputs to both at the same time
 
